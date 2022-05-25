@@ -3,7 +3,6 @@ class Node(object):
         self.value = value
         self.left = None
         self.right = None
-
 class BinaryTree(object):
     def __init__(self, root):
         self.root = Node(root)
@@ -52,7 +51,6 @@ class BinaryTree(object):
 #        24        58    69 
 #         \         \ 
 #          32        59
-
 
 tree = BinaryTree(52)
 tree.root.left = Node(40)
